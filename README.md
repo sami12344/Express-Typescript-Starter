@@ -1,6 +1,7 @@
 
 
-<img src= 'https://github.com/sami12344/Express-Typescript-Starter/assets/77746252/136f2ac9-a4fd-4fb7-9cb1-ef2507eacee5' width='100%' alt='Express + TypeScript'/>
+<img src= 'https://github.com/sami12344/Express-Typescript-Starter/assets/77746252/55c9ff4b-09de-4f7e-9e4e-7b64ffe9f706' width='100%' alt='Express + TypeScript'/>
+
 
 # Express + TypeScript Starter
 This repository provides a quick and easy starting point for building web applications using Express.js and TypeScript. With this starter, you can quickly set up a server-side application with strong typing, making it easier to build and maintain robust APIs and web services. Whether you're new to TypeScript or just looking for a solid foundation for your Express project, this starter will save you time and effort.
