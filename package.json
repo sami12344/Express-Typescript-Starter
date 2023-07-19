@@ -1,19 +1,23 @@
 {
-  "name": "typescript_nodejs_setup",
+  "name": "express_typescript_starter",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "license": "MIT",
+  "repository": "https://github.com/sami12344/Express-Typescript-Starter.git",
+  "author": "sami12344 <freelancersami16203@gmail.com>",
   "scripts": {
-    "start": "node ./build/index.js",
+    "start": "node ./dist/index.js",
     "build": "tsc -p .",
     "dev": "nodemon ./src/index.ts"
   },
-  "dependencies": {
+  "devDependencies": {
     "@types/express": "^4.17.17",
-    "@types/node": "^20.4.1",
-    "express": "^4.18.2",
+    "@types/node": "^20.4.2",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }

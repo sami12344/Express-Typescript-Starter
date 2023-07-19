@@ -1,14 +1,12 @@
-import express, { Request, Response } from 'express'
+import express from 'express'
 
-// Create Express app
 const app = express()
+const port = 3000
 
-// Define a route handler for the root path
-app.get('/', (req: Request, res: Response):void => {
-  res.send('Hello, World!')
+app.get('/', (req, res) => {
+  res.send('Hello, Express and TypeScript!')
 })
 
-// Start the server
-app.listen(3000, ():void => {
-  console.log('Server is listening on port 3000')
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`)
 })
