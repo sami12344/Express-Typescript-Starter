@@ -54,23 +54,23 @@ npm install
    
    ```bash
    
-npm init y
+     npm init y
 
    ```
 2. Initilize tsconfig.json
 
 ```bash
 
-tsc --init
+  tsc --init
 
 ```
 3. Edit the tsconfig.json
 
-   ```ts
+```json
 
 { "compilerOptions": { "target": "ES6" , "module": "commonjs" , "rootDir": "./src" , "moduleResolution": "Node" , "outDir": "./dist" , "esModuleInterop": true , "forceConsistentCasingInFileNames": true , "strict": true , "skipLibCheck": true }, "include": ["src/**/*.ts"], "exclude": ["node_modules"] }
 
-   ```
+```
 4. Install packages
 
 Install dev dependencies
