@@ -46,23 +46,17 @@ npm install
 1. Initialize package.json
 
 ```bash
-   
    yarn init -y
-   
 ```
    or,
    
 ```bash
-   
      npm init -y
-
 ```
 2. Initilize tsconfig.json
 
 ```bash
-
   tsc --init
-
 ```
 3. Edit the tsconfig.json
 
@@ -77,7 +71,7 @@ Install dev dependencies
 
 ```bash
 
-yarn add typescript @types/node @types/express nodemon -dev
+yarn add typescript @types/node @types/express nodemon -D
 
 ```
 
