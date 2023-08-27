@@ -45,18 +45,18 @@ npm install
 ## Manually
 1. Initialize package.json
 
-   ```bash
+```bash
    
    yarn init -y
    
-   ```
+```
    or,
    
-   ```bash
+```bash
    
-     npm init y
+     npm init -y
 
-   ```
+```
 2. Initilize tsconfig.json
 
 ```bash
