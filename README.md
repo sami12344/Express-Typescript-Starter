@@ -42,10 +42,55 @@ cd express-typescript-starter
 ```bash
 npm install
 ```
+## Manually
+1. Initialize package.json
 
-4. Create a `.env` file in the root of the project and set the required environment variables. You can use the provided `.env.example` file as a template.
+   ```bash
+   
+   yarn init -y
+   
+   ```
+   or,
+   
+   ```bash
+   
+npm init y
 
-5. Build and start the server:
+   ```
+2. Initilize tsconfig.json
+
+```bash
+
+tsc --init
+
+```
+3. Edit the tsconfig.json
+
+   ```ts
+
+{ "compilerOptions": { "target": "ES6" , "module": "commonjs" , "rootDir": "./src" , "moduleResolution": "Node" , "outDir": "./dist" , "esModuleInterop": true , "forceConsistentCasingInFileNames": true , "strict": true , "skipLibCheck": true }, "include": ["src/**/*.ts"], "exclude": ["node_modules"] }
+
+   ```
+4. Install packages
+
+Install dev dependencies
+
+```bash
+
+yarn add typescript @types/node @types/express nodemon -dev
+
+```
+
+Install Dependendcies
+
+```bash
+
+yarn add express
+
+```
+5. Create a `.env` file in the root of the project and set the required environment variables. You can use the provided `.env.example` file as a template.
+
+6. Build and start the server:
 
 ```bash
 npm run build
